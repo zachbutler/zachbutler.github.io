@@ -1,0 +1,29 @@
+:root {
+    --color-dark: #3b6978;
+    --color-light: #84a9ac;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    font-family: Arial;
+    align-items: center;
+    justify-content: center;
+}
+
+.site__title {
+    font-size: 100px;
+    width: 50%;
+    text-align: center;
+}
+
+.site__title-text {
+    background: -webkit-linear-gradient (
+      34deg,
+      var (--color-dark),
+      var (--color-light)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
